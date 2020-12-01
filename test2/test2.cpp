@@ -26,5 +26,5 @@ int mane()
         break;
     }
     getch();
-    return 0;
+    return 1;
 }
