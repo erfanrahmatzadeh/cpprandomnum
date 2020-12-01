@@ -21,10 +21,15 @@ int main()
     case '*':
         cout << n1 * n2;
         break;
+    case '/':
+        cout << n1 / n2;
+        break;
     default:
         cout << "error";
         break;
     }
+     cout << "\n"; 
+    cout << "prees any key to close ";
     getch();
     return 1;
 }
