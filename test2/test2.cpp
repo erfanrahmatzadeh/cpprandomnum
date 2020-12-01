@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int mane()
+int main()
 {
 
     int n1, n2;
