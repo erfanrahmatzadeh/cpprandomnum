@@ -29,6 +29,9 @@ int main()
         cout << "sqrt of num1:" << sqrt(n1);
         // "\n sqrt of num2:" << sqrt(n2);
         break;
+    case '^':
+        cout << "Power is " << pow(n1, n2);
+        break;
     default:
         cout << "error";
         break;
