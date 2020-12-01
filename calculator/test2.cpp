@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include <math.h>
 
 using namespace std;
 
@@ -24,11 +25,15 @@ int main()
     case '/':
         cout << n1 / n2;
         break;
+    case 's':
+        cout << "sqrt of num1:" << sqrt(n1);
+        // "\n sqrt of num2:" << sqrt(n2);
+        break;
     default:
         cout << "error";
         break;
     }
-     cout << "\n"; 
+    cout << "\n";
     cout << "prees any key to close ";
     getch();
     return 1;
