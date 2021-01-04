@@ -7,7 +7,7 @@ int square(int);
 
 int main()
 {
-    for (int x = 1; x <= 10; x++)
+    for (int x = 1; x <= 100; x++)
         cout << square(x) << " ";
     cout << endl;
 
